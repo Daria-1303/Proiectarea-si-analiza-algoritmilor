@@ -194,6 +194,21 @@ void preOrderRecursiv(TTree arbore, TNodeRef radacinaCurenta) {		// radacinaCure
 	}
 }
 
+// simplificat preOrder
+
+void parcurgerePreordine(TTree arbore, TNodeRef radacinaCurenta) {
+	TNode nodCurent = nodeByRef(arbore, radacinaCurenta);
+
+	printf("%d ", nodCurent.key);
+
+	TNodeRef primulCopil = firstChild(arbore, radacinaCurenta);
+
+	while (primulCopil != 0) {
+		parcurgerePreordine(arbore, primulCopil);
+		primulCopil = rightSibling(arbore, primulCopil);
+	}
+}
+
 void postOrderRecursiv(TTree arbore, TNodeRef radacinaCurenta) {
 	/*if (radacinaCurenta == 0) {
 		return;
@@ -222,6 +237,21 @@ void postOrderRecursiv(TTree arbore, TNodeRef radacinaCurenta) {
 	printf("%d ", nodCurent.key);
 }
 
+
+// mai putin cod aici
+void parcurgerePostordine(TTree arbore, TNodeRef radacinaCurenta) {
+	TNodeRef primulCopil = firstChild(arbore, radacinaCurenta);
+
+	while (primulCopil != 0) {
+		parcurgerePostordine(arbore, primulCopil);
+		primulCopil = rightSibling(arbore, primulCopil);
+	}
+
+	TNode nodCurent = nodeByRef(arbore, radacinaCurenta);
+
+	printf("%d ", nodCurent.key);
+}
+
 void inOrderRecursiv(TTree arbore, TNodeRef radacinaCurenta) {
 	TNodeRef primulCopil = firstChild(arbore, radacinaCurenta);
 
@@ -241,3 +271,4 @@ void inOrderRecursiv(TTree arbore, TNodeRef radacinaCurenta) {
 		frateDreapta = rightSibling(arbore, frateDreapta);
 	}
 }
+
