@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\IndicatorParinte.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|solutionrelative:IndicatorParinte.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\IndicatorParinte.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|solutionrelative:IndicatorParinte.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42239FB3-157E-4C4D-8BA8-DA51C649B0A8}|ArboreGeneralizat_IndicatorParinte.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\IndicatorParinte.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -42,28 +42,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "IndicatorParinte.c",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\IndicatorParinte.c",
               "RelativeDocumentMoniker": "IndicatorParinte.c",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\IndicatorParinte.c",
               "RelativeToolTip": "IndicatorParinte.c",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAowN0AAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAwwBIBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-18T15:27:50.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\Main.c",
               "RelativeDocumentMoniker": "Main.c",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_IndicatorParinte\\Main.c",
               "RelativeToolTip": "Main.c",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAADcAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-03-18T15:27:39.062Z"
+              "WhenOpened": "2025-03-18T15:27:39.062Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

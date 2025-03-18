@@ -55,6 +55,8 @@ int main(int argc, char** argv) {
 	inOrderRecursiv(arbore, getRoot(arbore));
 	printf("\n\n");
 
+	arbore = deleteNode(arbore, 2);
+
 	fclose(fin);
 	return 0;
 }
