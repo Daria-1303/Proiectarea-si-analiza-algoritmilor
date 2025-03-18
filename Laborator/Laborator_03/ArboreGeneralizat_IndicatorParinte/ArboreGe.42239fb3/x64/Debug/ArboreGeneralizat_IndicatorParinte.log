@@ -1,0 +1,6 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  IndicatorParinte.c
+  Main.c
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Laborator_03\ArboreGeneralizat_IndicatorParinte\Main.c(9,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  ArboreGeneralizat_IndicatorParinte.vcxproj -> C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Laborator_03\ArboreGeneralizat_IndicatorParinte\x64\Debug\ArboreGeneralizat_IndicatorParinte.exe
