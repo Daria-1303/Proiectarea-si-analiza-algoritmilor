@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|solutionrelative:PrimFiu_FrateDreapta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -17,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|solutionrelative:PrimFiu_FrateDreapta.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2223B82A-7C4D-4CDF-8A09-EEC761AE2E35}|ArboreGeneralizat_PrimFiu_FrateDreapta.vcxproj|solutionrelative:PrimFiu_FrateDreapta.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "data.txt",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\data.txt",
               "RelativeDocumentMoniker": "data.txt",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\data.txt",
               "RelativeToolTip": "data.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAmwAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
               "WhenOpened": "2025-03-18T16:53:15.702Z",
               "IsPinned": true,
@@ -44,39 +44,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Main.c",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\Main.c",
               "RelativeDocumentMoniker": "Main.c",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\Main.c",
               "RelativeToolTip": "Main.c",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAE4AAAACAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAD8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-18T16:52:46.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "PrimFiu_FrateDreapta.c",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.c",
               "RelativeDocumentMoniker": "PrimFiu_FrateDreapta.c",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.c",
               "RelativeToolTip": "PrimFiu_FrateDreapta.c",
-              "ViewState": "AgIAABkBAAAAAAAAAAAAACMBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABcBAAAAAAAAAAAAAD0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-03-18T16:52:39.937Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PrimFiu_FrateDreapta.h",
               "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.h",
               "RelativeDocumentMoniker": "PrimFiu_FrateDreapta.h",
               "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Laborator\\Laborator_03\\ArboreGeneralizat_PrimFiu_FrateDreapta\\PrimFiu_FrateDreapta.h",
               "RelativeToolTip": "PrimFiu_FrateDreapta.h",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAACgAAABlAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-18T16:52:33.558Z",
               "EditorCaption": ""
