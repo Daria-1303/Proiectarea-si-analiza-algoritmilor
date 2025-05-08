@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\Ciobanu_Daria.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|solutionrelative:Ciobanu_Daria.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|solutionrelative:ArbGenFirstChildRightSibling.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DF1103E5-3AC7-4EB6-99FD-E9089757A55C}|Test_cod_01.vcxproj|solutionrelative:ArbGenFirstChildRightSibling.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArbGenFirstChildRightSibling.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.c",
+              "RelativeDocumentMoniker": "ArbGenFirstChildRightSibling.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.c",
+              "RelativeToolTip": "ArbGenFirstChildRightSibling.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-01T12:10:58.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ciobanu_Daria.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\Ciobanu_Daria.c",
+              "RelativeDocumentMoniker": "Ciobanu_Daria.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\Ciobanu_Daria.c",
+              "RelativeToolTip": "Ciobanu_Daria.c",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-04-01T12:10:35.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArbGenFirstChildRightSibling.h",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.h",
+              "RelativeDocumentMoniker": "ArbGenFirstChildRightSibling.h",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\ArbGenFirstChildRightSibling.h",
+              "RelativeToolTip": "ArbGenFirstChildRightSibling.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-01T12:08:01.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "data.txt",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\data.txt",
+              "RelativeDocumentMoniker": "data.txt",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Teste laborator\\Test_cod_01\\data.txt",
+              "RelativeToolTip": "data.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-04-01T12:06:19.625Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

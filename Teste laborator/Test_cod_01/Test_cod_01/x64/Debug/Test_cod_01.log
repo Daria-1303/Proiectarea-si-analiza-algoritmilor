@@ -1,0 +1,6 @@
+﻿cl : command line  warning D9025: overriding '/sdl' with '/GS-'
+  Ciobanu_Daria.c
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Test_cod_01\Ciobanu_Daria.c(75,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Test_cod_01\Ciobanu_Daria.c(78,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Test_cod_01\Ciobanu_Daria.c(84,2): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Test_cod_01.vcxproj -> C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Test_cod_01\x64\Debug\Test_cod_01.exe
