@@ -164,6 +164,7 @@ void Insert_Node(Graph_T *graph, Node_T node_Inserted){
     }
 
     graph->arcs[graph->num_nodes - 1][graph->num_nodes - 1] = true;
+    
 }
 
 // (8) remove a node from the graph -> unordered

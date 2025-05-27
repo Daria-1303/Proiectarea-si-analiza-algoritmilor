@@ -1,0 +1,4 @@
+﻿  Main.c
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Pregatire_test_03\Grafuri_Ponderate\Main.c(45,8): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Pregatire_test_03\Grafuri_Ponderate\Main.c(188,6): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Grafuri_Ponderate.vcxproj -> C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Teste laborator\Pregatire_test_03\Grafuri_Ponderate\x64\Debug\Grafuri_Ponderate.exe

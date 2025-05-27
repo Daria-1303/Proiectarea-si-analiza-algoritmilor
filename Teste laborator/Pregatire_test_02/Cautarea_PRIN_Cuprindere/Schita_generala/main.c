@@ -37,7 +37,7 @@ int dequeue(Queue_t *q) {
 
 void bfs(const Graf_t *g, int src, int dest) {
     bool visited[MAXN] = { false };
-    int parent[MAXN];
+    int parent[MAXN];   //
     Queue_t q;
     initQueue(&q);
 
