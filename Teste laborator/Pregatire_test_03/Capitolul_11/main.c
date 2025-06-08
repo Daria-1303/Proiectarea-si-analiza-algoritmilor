@@ -322,6 +322,42 @@ int allVisited(const int visited[], int numberOfNodes) {
 }
 
 
+// Function to check if the graph is orientated or not
+int isOrientated(const Graf_T* graf) {
+	for (int i = 0; i < graf->numberOfNodes; i++) {
+		for (int j = 0; j < graf->numberOfNodes; j++) {
+			if (graf->adjacencyMatrix[i][j] != graf->adjacencyMatrix[j][i]) {
+				return 1; // Graph is orientated
+			}
+		}
+	}
+	return 0; // Graph is not orientated
+}
+
+// Function to check if the graph is connected
+int isConnected(const Graf_T* graf) {
+	int visited[MAX_NODES] = { 0 };
+	Queue_t queue;
+	initQueue(&queue);
+
+	// Start BFS from the first node
+	enqueue(&queue, 0);
+	visited[0] = 1;
+
+	while (!isQueueEmpty(&queue)) {
+		int currentNode = dequeue(&queue);
+
+		for (int i = 0; i < graf->numberOfNodes; i++) {
+			if (graf->adjacencyMatrix[currentNode][i] > 0 && !visited[i]) {
+				enqueue(&queue, i);
+				visited[i] = 1;
+			}
+		}
+	}
+
+	return allVisited(visited, graf->numberOfNodes);
+}
+
 
 
 // ----------------------
@@ -503,8 +539,6 @@ void dfsRecursive(const Graf_T* graf, int startNode, int visited[]) {
 
 
 
-
-
 //	---------------------
 // MAIN
 // ----------------------
@@ -574,6 +608,7 @@ int main(int argc, char** argv) {
 	printf("---------------------\n");
 	dfsRecursive(&graf, 0, visited);
 	printf("---------------------\n");
+
 
 
 	fclose(fin);
