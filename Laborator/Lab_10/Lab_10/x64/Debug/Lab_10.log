@@ -1,0 +1,28 @@
+﻿  Main.c
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(55,2): warning C4013: 'memset' undefined; assuming extern returning int
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(252,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(253,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(273,6): warning C4013: 'isArc' undefined; assuming extern returning int
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(302,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(315,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(321,2): warning C4098: 'getNeighbors': 'void' function returning a value
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(334,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(335,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(358,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(359,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(355,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(360,4): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(365,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(366,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(383,2): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(387,9): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(395,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(418,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(461,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(502,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(569,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(598,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(613,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(654,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\Main.c(676,20): warning C4018: '<': signed/unsigned mismatch
+  Lab_10.vcxproj -> C:\Users\daria\Documents\GitHub\Faculta\Anul 2\Semestrul 2\Proiectarea-si-analiza-algoritmilor\Laborator\Lab_10\x64\Debug\Lab_10.exe
