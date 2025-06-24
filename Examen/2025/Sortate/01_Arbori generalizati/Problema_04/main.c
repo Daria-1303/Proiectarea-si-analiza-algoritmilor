@@ -43,10 +43,6 @@ void afiseazaArbore(ArboreGeneralizat_T* arbore){
 int inaltimeMaxima = 0;
 
 void calculeazaInaltime(ArboreGeneralizat_T* arbore, int *pas, int index){
-    if(arbore->chei[index] == arbore->parinte[index]){
-        return;
-    }
-
     for(int i = 0; i < arbore->numarNoduri; i++){
         if(arbore->parinte[i] == arbore->chei[index]){
             *pas = *pas + 1;
@@ -60,6 +56,34 @@ void calculeazaInaltime(ArboreGeneralizat_T* arbore, int *pas, int index){
             *pas = *pas - 1; // revenim la nivelul anterior
         }
     }
+}
+
+int grad = 0;
+
+void calculeazaGrad(ArboreGeneralizat_T* arbore){
+    int nr = 0;
+    int parinteCurent = -1;
+    for(int i = 0; i < arbore->numarNoduri; i++){
+        if(arbore->chei[i] == arbore->parinte[i]){
+            continue;
+        }
+
+        if(arbore->parinte[i] == parinteCurent ){
+            nr++;
+        }
+        else{
+            if(nr > grad){
+                grad = nr;
+            }
+            parinteCurent = arbore->parinte[i];
+            nr = 1; // resetam numaratorul pentru noul parinte
+        }
+    }
+
+    if(nr > grad){
+        grad = nr; // verificam si ultimul grup de noduri
+    }
+    
 }
 
 int main(int argc, char **argv){
@@ -102,7 +126,11 @@ int main(int argc, char **argv){
 
     int pas = 0;
     calculeazaInaltime(&arbore, &pas, 0); 
-    printf("Inaltimea maxima a arborelui este: %d\n", inaltimeMaxima);
+    printf("Inaltimea maxima a arborelui este: %d\n", inaltimeMaxima + 1);
+
+
+    calculeazaGrad(&arbore);
+    printf("Gradul maxim al arborelui este: %d\n", grad);
 
 
     return 0;
