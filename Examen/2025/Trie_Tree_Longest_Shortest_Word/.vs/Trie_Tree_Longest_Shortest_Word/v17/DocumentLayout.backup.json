@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{538EFE1A-36EB-4CCC-9C98-628F36CD6DE7}|Trie_Tree_Longest_Shortest_Word.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{538EFE1A-36EB-4CCC-9C98-628F36CD6DE7}|Trie_Tree_Longest_Shortest_Word.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{538EFE1A-36EB-4CCC-9C98-628F36CD6DE7}|Trie_Tree_Longest_Shortest_Word.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{538EFE1A-36EB-4CCC-9C98-628F36CD6DE7}|Trie_Tree_Longest_Shortest_Word.vcxproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data.txt",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\data.txt",
+              "RelativeDocumentMoniker": "data.txt",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\data.txt",
+              "RelativeToolTip": "data.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-09T19:36:21.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Trie_Tree_Longest_Shortest_Word\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAqwAYBAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-09T19:16:43.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

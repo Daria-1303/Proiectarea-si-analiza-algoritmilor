@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A48C6519-9D61-4895-A85D-8FD2FBA51FDC}|Tournament Bracket System.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A48C6519-9D61-4895-A85D-8FD2FBA51FDC}|Tournament Bracket System.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48C6519-9D61-4895-A85D-8FD2FBA51FDC}|Tournament Bracket System.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\data.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A48C6519-9D61-4895-A85D-8FD2FBA51FDC}|Tournament Bracket System.vcxproj|solutionrelative:data.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAOUAAAAAAAAAAAAtwI0AAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-08T20:23:15.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "data.txt",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\data.txt",
+              "RelativeDocumentMoniker": "data.txt",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Tournament Bracket System\\data.txt",
+              "RelativeToolTip": "data.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-06-08T16:30:50.61Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

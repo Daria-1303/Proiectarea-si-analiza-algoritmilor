@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|solutionrelative:Main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|solutionrelative:arboreB.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C68EA81C-1D48-41A5-8C62-1AEE7E11F8C1}|Library Catalog System.vcxproj|solutionrelative:arboreB.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 273,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "arboreB.h",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.h",
+              "RelativeDocumentMoniker": "arboreB.h",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.h",
+              "RelativeToolTip": "arboreB.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-08T20:33:11.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "arboreB.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.c",
+              "RelativeDocumentMoniker": "arboreB.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\arboreB.c",
+              "RelativeToolTip": "arboreB.c",
+              "ViewState": "AgIAAAYBAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-08T20:32:55.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.c",
+              "DocumentMoniker": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\Main.c",
+              "RelativeDocumentMoniker": "Main.c",
+              "ToolTip": "C:\\Users\\daria\\Documents\\GitHub\\Faculta\\Anul 2\\Semestrul 2\\Proiectarea-si-analiza-algoritmilor\\Examen\\2025\\Library Catalog System\\Main.c",
+              "RelativeToolTip": "Main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-06-08T20:30:16.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
