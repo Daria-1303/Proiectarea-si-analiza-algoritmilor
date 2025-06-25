@@ -3,10 +3,8 @@
 #include <string.h>
 #include <ctype.h>
 
-#define DEBUG 1
+#define DEBUG 0
 #define ALPHABET_SIZE 26
-
-int pagini_create = 0;
 
 typedef struct ArboreRegasire{
     int final_cuvant;
@@ -52,8 +50,6 @@ void adaugaCuvant(ArboreRegasire_T* radacina, const char *cuvant){
         // Daca nodul copil nu exista, il cream
         if(nod_curent->copii[index] == NULL){
             nod_curent->copii[index] = creazaNod();
-
-            pagini_create++;
         }
 
         // Mergem la nodul copil
@@ -118,12 +114,181 @@ void lungimeMedieCuvinte(ArboreRegasire_T *radacina, int nivel, int *numar_cuvin
  * @brief o functie care calculeaza inaltimea arborelui
 */
 
+int inaltimeMAX = 0;
+
+void inaltimeArbore(ArboreRegasire_T *radacina, int nivel, int *pas){
+    if(radacina == NULL){
+        return;
+    }
+
+    if(radacina->final_cuvant == 1){
+        if(nivel > inaltimeMAX){
+            inaltimeMAX = nivel;
+        }
+    }
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            inaltimeArbore(radacina->copii[i], nivel + 1, pas);
+        }
+    }
+
+    if(nivel > *pas){
+        *pas = nivel;
+    }
+
+    if(DEBUG){
+        printf("Nivelul curent: %d, Inaltime maxima: %d\n", nivel, inaltimeMAX);
+    }
+}
+
 /**
  * @brief o functie care calculeaza nr de pagini din arbore
  */
 
+int nrPagini(ArboreRegasire_T *radacina){
+    if(radacina == NULL) return 0;
+
+    int pagini = 1; // Contorizeaza pagina curenta
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            pagini += nrPagini(radacina->copii[i]);
+        }
+    }
+
+    return pagini;
+}
+
+/**
+ * @brief functie care afiseaza cel mai mare cuvant in ordine lexicografica
+*/
+
+char *celMaiMareCuvant = NULL;
+
+void gasesteCelMaiMareCuvant(ArboreRegasire_T *radacina, char *buffer, int nivel){
+    if(radacina->final_cuvant == 1){
+        buffer[nivel] = '\0'; // Terminam stringul
+        celMaiMareCuvant = strdup(buffer); // Copiem cuvantul gasit
+        if(DEBUG){
+            printf("Cuvant gasit: %s\n", celMaiMareCuvant);
+        }
+    }
+
+    for(int i = ALPHABET_SIZE - 1; i >= 0; i--){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i;
+            gasesteCelMaiMareCuvant(radacina->copii[i], buffer, nivel + 1);
+            break;
+        }
+    }
+}
+
+void gasesteUltimCuvant(ArboreRegasire_T*radacina, char *buffer, int nivel, char *ultimCuvant){
+    if(radacina->final_cuvant == 1){
+        buffer[nivel] = '\0'; // Terminam stringul
+        strcpy(ultimCuvant, buffer); // Copiem cuvantul gasit
+        if(DEBUG){
+            printf("Ultimul cuvant gasit: %s\n", ultimCuvant);
+        }
+    }
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i;
+            gasesteUltimCuvant(radacina->copii[i], buffer, nivel + 1, ultimCuvant);
+        }
+    }
+}
+
+/**
+ * @brief functie care gaseste cel mai scurt cuvant
+ */
+
+void gasesteCelMaiScurtCuvant(ArboreRegasire_T *radacina, char *buffer, int nivel, int *lungimeMinima, char *celMaiScurtCuvant){
+    if(radacina->final_cuvant == 1){
+        buffer[nivel] = '\0';
+
+        if(strlen(buffer) < *lungimeMinima){
+            *lungimeMinima =  strlen(buffer);
+            strcpy(celMaiScurtCuvant, buffer);
+            if(DEBUG){
+                printf("Cuvant scurt gasit: %s\n", celMaiScurtCuvant);
+            }   
+        }
+    }
 
 
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i;
+            gasesteCelMaiScurtCuvant(radacina->copii[i], buffer, nivel + 1, lungimeMinima, celMaiScurtCuvant);
+        }
+    }
+}
+
+void gasesteCelMaiLungCuvant(ArboreRegasire_T *radacina, char*buffer, int nivel, int *lungimeMaxima, char *celMaiLungCuvant){
+    if(radacina->final_cuvant == 1){
+        buffer[nivel] = '\0';
+
+        if(strlen(buffer) > *lungimeMaxima){
+            *lungimeMaxima = strlen(buffer);
+            strcpy(celMaiLungCuvant, buffer);
+            if(DEBUG){
+                printf("Cuvant lung gasit: %s\n", celMaiLungCuvant);
+            }   
+        }
+    }
+
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i;
+
+            gasesteCelMaiLungCuvant(radacina->copii[i], buffer, nivel + 1, lungimeMaxima, celMaiLungCuvant);
+        }
+    }
+}
+
+/**
+ * @brief functie care afla primul cuvant din arbore
+*/
+
+void gasestePrimulCuvant(ArboreRegasire_T *radacina, char *buffer, int nivel, char *primulCuvant){
+    if(radacina->final_cuvant == 1){
+        buffer[nivel] = '\0';
+        strcpy(primulCuvant, buffer);
+        return;
+    }
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i;
+            gasestePrimulCuvant(radacina->copii[i], buffer, nivel + 1, primulCuvant);
+            if(strlen(primulCuvant) > 0){
+                return; // Daca am gasit deja primul cuvant, iesim
+            }
+        }
+    }
+}
+
+/**
+ * @brief functie care gaseste cuvintele care au a doua litera un caracter dat
+ */
+
+void gasesteCuvantCuADouaLitera(ArboreRegasire_T *radacina, char *buffer, int nivel, char litera){
+    if(radacina->final_cuvant == 1 && nivel >=1 && buffer[1] == litera){
+        buffer[nivel] = '\0'; // Terminam stringul
+        printf("%s\n", buffer); // Afisam cuvantul
+    }
+
+    for(int i = 0; i < ALPHABET_SIZE; i++){
+        if(radacina->copii[i] != NULL){
+            buffer[nivel] = 'a' + i; // Adaugam litera curenta in buffer
+            gasesteCuvantCuADouaLitera(radacina->copii[i], buffer, nivel + 1, litera);
+        }
+    }
+}
 
 
 int main(int argc, char **argv){
@@ -174,6 +339,65 @@ int main(int argc, char **argv){
     } else {
         printf("Nu exista cuvinte in arbore.\n");
     }
+
+    int pas = 0;
+    inaltimeArbore(radacina, 0, &pas);
+    printf("Inaltimea maxima a arborelui este: %d\n", inaltimeMAX + 1);
+
+    printf("Numarul de pagini din arbore este: %d\n", nrPagini(radacina));
+
+    char buffer_cel_mai_mare[100];
+    gasesteCelMaiMareCuvant(radacina, buffer_cel_mai_mare, 0);
+    if(celMaiMareCuvant != NULL){
+        printf("Cel mai mare cuvant in ordine lexicografica este: %s\n", celMaiMareCuvant);
+        free(celMaiMareCuvant);
+    } else {
+        printf("Nu s-a gasit niciun cuvant in arbore.\n");
+    }
+
+    char ultimCuvant[100] = "";
+    gasesteUltimCuvant(radacina, buffer, 0, ultimCuvant);
+    if(strlen(ultimCuvant) > 0){
+        printf("Ultimul cuvant in ordine lexicografica este: %s\n", ultimCuvant);
+    } else {
+        printf("Nu s-a gasit niciun cuvant in arbore.\n");
+    }
+
+    char buffer_cel_mai_scurt[100];
+    int lungimeMinima = 100; // Initializam cu o valoare mare
+    char celMaiScurtCuvant[100] = "";
+    gasesteCelMaiScurtCuvant(radacina, buffer_cel_mai_scurt, 0, &lungimeMinima, celMaiScurtCuvant);
+    if(lungimeMinima < 100){
+        printf("Cel mai scurt cuvant este: %s\n", celMaiScurtCuvant);
+    } else {
+        printf("Nu s-a gasit niciun cuvant in arbore.\n");
+    }
+
+    char buffer_cel_mai_lung[100];
+    int lungimeMaxima = 0; // Initializam cu 0
+    char celMaiLungCuvant[100] = "";
+    gasesteCelMaiLungCuvant(radacina, buffer_cel_mai_lung, 0, &lungimeMaxima, celMaiLungCuvant);
+    if(lungimeMaxima > 0){
+        printf("Cel mai lung cuvant este: %s\n", celMaiLungCuvant);
+    } else {
+        printf("Nu s-a gasit niciun cuvant in arbore.\n");
+    }
+
+    char primulCuvant[100] = "";
+    gasestePrimulCuvant(radacina, buffer, 0, primulCuvant);
+    if(strlen(primulCuvant) > 0){
+        printf("Primul cuvant in ordine lexicografica este: %s\n", primulCuvant);
+    } else {
+        printf("Nu s-a gasit niciun cuvant in arbore.\n");
+    }
+
+    char litera;
+    printf("Introduceti litera pentru a gasi cuvintele care au aceasta litera ca a doua: ");
+    scanf(" %c", &litera);
+    litera = tolower(litera); // Convertim la litera mica
+    printf("Cuvintele care au '%c' ca a doua litera sunt:\n", litera);
+    gasesteCuvantCuADouaLitera(radacina, buffer, 0, litera);        
+
 
 
     elibereazaArbore(radacina);
