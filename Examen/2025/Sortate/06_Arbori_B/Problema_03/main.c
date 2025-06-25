@@ -35,6 +35,8 @@ typedef struct Pagina{
     Nod_T chei[NN + 1]; // vectori de noduri
 }Pagina_T;
 
+int nr_pagini_scindate = 0;
+int inaltimea_arborelui = 0;
 
 /**
  * @def FUNCTIONS
@@ -118,6 +120,7 @@ Pagina_T* insereaza(Pagina_T *pagina, char sir_caractere[30], Nod_T* nod){
             a->numar_chei = b->numar_chei = N;
 
             // aici se poate creste nr de scindari
+            nr_pagini_scindate++;
 
             // cheia nodului v este cheia de scindare
 
@@ -162,13 +165,12 @@ Pagina_T* insereaza(Pagina_T *pagina, char sir_caractere[30], Nod_T* nod){
 
         r = insereaza(q, sir_caractere, NULL);
         
-        /// daca pafina in care s-a inserat s-a scindat, atuncti arborele a crescut cu un nivel
+        /// daca pagina in care s-a inserat s-a scindat, atuncti arborele a crescut cu un nivel
         if(r != q){
             /*
                 se incearca inserarea nodului din pagina scindata in pagina curenta
                 in caz de succes, arborele nu va creste in inaltima
             */
-
             pagina = insereaza(pagina, r->chei[1].sir_caractere, &r->chei[1]);
             free(r); // se sterge pagina scindata
         }
@@ -199,22 +201,57 @@ void afisare(Pagina_T* arbore, int nivel){
     printf("\n");
 }
 
-// cerinta ne cere sa afisam arborele B in preordine cu spatii
+void afisareSiNumarare(Pagina_T* arbore, int nivel, int* contorPagini){
+    int i;
+    if (arbore == NULL) return;
 
-void preordine(Pagina_T *pagina) {
-    if (pagina == NULL) return;
+    
+    
+    (*contorPagini)++;
 
-    // Parcurge subarborele din stanga primei chei
-    if (pagina->chei[0].pagina != NULL) {
-        preordine(pagina->chei[0].pagina);
+    afisareSiNumarare(arbore->parinte, nivel + 1, contorPagini);
+    
+
+    for(i = 1; i <= arbore->numar_chei; i++){
+        
+        afisareSiNumarare(arbore->chei[i].pagina, nivel + 1, contorPagini);
     }
 
-    for (int i = 1; i <= pagina->numar_chei; i++) {
-        printf("%s ", pagina->chei[i].sir_caractere);
-        if (pagina->chei[i].pagina != NULL) {
-            preordine(pagina->chei[i].pagina);
-        }
+    printf("Nivel %d: ", nivel);
+
+    for(i = 1; i <= arbore->numar_chei; i++){
+        printf("%s(%d) ", arbore->chei[i].sir_caractere, arbore->chei[i].numar_elemente);
     }
+
+    printf("\n");
+}
+
+int inaltimeMAX;
+
+// inaltimea 
+void inaltime(Pagina_T* arbore, int nivel){
+    int i;
+
+    if(arbore == NULL){
+        return;
+    }
+
+    inaltime(arbore->parinte, nivel + 1);
+
+    for(i = 1; i <= arbore->numar_chei; i++){
+        inaltime(arbore->chei[i].pagina, nivel + 1);
+    }
+
+    //printf("Nivel %d: ", nivel);
+    if(nivel > inaltimeMAX){
+        inaltimeMAX = nivel;
+    }
+
+    for(i = 1; i <= arbore->numar_chei; i++){
+        //printf("%s(%d) ", arbore->chei[i].sir_caractere, arbore->chei[i].numar_elemente);
+    }
+
+    //printf("\n");
 }
 
 
@@ -248,10 +285,15 @@ int main(int argc, char **argv){
     afisare(radacina, 0);
     printf("\n");
 
-    printf("Afisare in preordine:\n");
-    preordine(radacina);
-    printf("\n");
+    printf("Numarul de pagini scindate: %d\n", nr_pagini_scindate);
 
+    int contorPagini = 0;
+    afisareSiNumarare(radacina, 0, &contorPagini);
+    printf("Numarul total de pagini: %d\n", contorPagini);
+
+    inaltimeMAX = 0;
+    inaltime(radacina, 0);
+    printf("Inaltimea arborelui: %d\n", inaltimeMAX + 1);
 
     return 0;
 }
