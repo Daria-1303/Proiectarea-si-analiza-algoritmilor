@@ -204,18 +204,50 @@ void afisare(Pagina_T* arbore, int nivel){
 void preordine(Pagina_T *pagina) {
     if (pagina == NULL) return;
 
-    // Parcurge subarborele din stanga primei chei
-    if (pagina->chei[0].pagina != NULL) {
-        preordine(pagina->chei[0].pagina);
-    }
-
-    for (int i = 1; i <= pagina->numar_chei; i++) {
+    for(int i = 1; i <= pagina->numar_chei; i++) {
         printf("%s ", pagina->chei[i].sir_caractere);
-        if (pagina->chei[i].pagina != NULL) {
-            preordine(pagina->chei[i].pagina);
-        }
+    }
+    
+    preordine(pagina->parinte);
+
+    for(int i = 1; i <= pagina->numar_chei; i++) {
+        preordine(pagina->chei[i].pagina);
     }
 }
+
+void inordine(Pagina_T *radacina){
+    if(radacina == NULL){
+        return;
+    }
+
+    inordine(radacina->parinte);
+
+    for(int i = 1; i <= radacina->numar_chei; i++){
+        printf("%s ", radacina->chei[i].sir_caractere);
+    }
+
+    for(int i = 1; i <= radacina->numar_chei; i++){
+        inordine(radacina->chei[i].pagina);
+    }
+}
+
+void postordine(Pagina_T *radacina){
+    if(radacina == NULL){
+        return;
+    }
+
+    postordine(radacina->parinte);
+
+    for(int i = 1; i <= radacina->numar_chei; i++){
+        postordine(radacina->chei[i].pagina);
+    }
+    
+
+    for(int i = 1; i <= radacina->numar_chei; i++){
+        printf("%s ", radacina->chei[i].sir_caractere);
+    }
+
+}   
 
 
 
@@ -252,6 +284,13 @@ int main(int argc, char **argv){
     preordine(radacina);
     printf("\n");
 
+    printf("Afisare in inordine:\n");
+    inordine(radacina);
+    printf("\n");
+
+    printf("Afisare in postordine:\n");
+    postordine(radacina);
+    printf("\n");
 
     return 0;
 }
